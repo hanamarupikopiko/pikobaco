@@ -462,6 +462,13 @@ main .section__title--deco {
   .section { padding: 56px 0; }
 }
 
+.hero{
+  min-height: min(68vh, 500px);
+}
+.hero__bg {
+  background: url("../images/hero2.png") center / cover no-repeat;
+}
+
 /* ===== 動きを減らす設定のユーザーへの配慮 ===== */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
