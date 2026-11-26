@@ -460,13 +460,8 @@ main .section__title--deco {
   .site-nav ul { flex-wrap: nowrap; justify-content: flex-start; }
   .site-nav a { white-space: nowrap; }
   .section { padding: 56px 0; }
-}
-
-.hero{
-  min-height: min(68vh, 500px);
-}
-.hero__bg {
-  background: url("../images/hero2.png") center / cover no-repeat;
+  .hero{ min-height: min(68vh, 500px); }
+  .hero__bg {  background: url("../images/hero2.png") center / cover no-repeat; }
 }
 
 /* ===== 動きを減らす設定のユーザーへの配慮 ===== */
