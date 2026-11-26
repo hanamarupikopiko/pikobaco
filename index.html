@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <title>ぴこ箱</title>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CN4RJSH3Z1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CN4RJSH3Z1');
+    </script>
+    <meta name="description" content="画面の中だけで終わらない「パソコン工作」で、子どもから大人まで作りたいものを形にするためのパソコンスキルの習得を応援するぴこ箱のホームページです。">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--サイトメニュー-->
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="" width="50" height="50">ぴこ箱</a>
+            <nav class="site-nav" aria-label="メインメニュー">
+                <ul>
+                    <li><a href="about.html">ぴこ箱って？</a></li>
+                    <li><a href="service1.html">個人向け事業</a></li>
+                    <li><a href="service2.html">学校・企業向け事業</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!--ヒーロー-->
+        <section class="hero">
+            <div class="hero__bg" aria-hidden="true"></div>
+            <div class="container hero__inner">
+                <h1>作りたいものを作ろう！</h1>
+            </div>
+        </section>
+
+        <!--お知らせ-->
+        <section class="section section--mist" aria-labelledby="news-title">
+            <div class="container">
+                <h2 class="section__title" id="news-title">最新情報</h2>
+                <div class="carousel" id="news-carousel" role="region" aria-roledescription="カルーセル" aria-label="お知らせ一覧">
+                    <div class="carousel__stage">
+                        <button type="button" class="carousel__btn carousel__btn--prev" id="news-prev" aria-label="前のお知らせ">
+                            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+                        </button>
+
+                        <ul class="carousel__track" id="news-track">
+                            <li class="news-item">
+                                <button type="button" class="news-card">
+                                    <span class="news-card__thumb"><img src="images/news/news-1.png" alt="" width="640" height="400"></span>
+                                    <span class="news-card__body">
+                                        <span class="news-card__date">2026.11.26</span>
+                                        <span class="news-card__title">ホームページを公開しました！</span>
+                                    </span>
+                                </button>
+                                <div class="news-detail" hidden>
+                                    <h3>ホームページを公開しました！</h3>
+                                    <time datetime="2026-11-26">2026年11月26日</time>
+                                    <p>やっっっとできました…運用がんばります。</p>
+                                </div>
+                            </li>
+
+                            <li class="news-item">
+                                <button type="button" class="news-card">
+                                    <span class="news-card__thumb"><img src="images/photo/namesticker_cafe.jpg" alt="" width="640" height="400"></span>
+                                    <span class="news-card__body">
+                                        <span class="news-card__date">2026.11.26</span>
+                                        <span class="news-card__title">【個人向け】まずはご相談ください！</span>
+                                    </span>
+                                </button>
+                                <div class="news-detail" hidden>
+                                    <h3>【個人向け】まずはご相談ください！</h3>
+                                    <time datetime="2026-11-26">2026年11月26日</time>
+                                    <p>
+                                        あなたやお子さんのやりたいことを見つける・作りたいものを作るお手伝いをします。<br>
+                                        <a href="service1.html">詳しくはこちら</a>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="news-item">
+                                <button type="button" class="news-card">
+                                    <span class="news-card__thumb"><img src="images/news/news-3.jpg" alt="" width="640" height="400"></span>
+                                    <span class="news-card__body">
+                                        <span class="news-card__date">2026.11.26</span>
+                                        <span class="news-card__title">【学校・企業向け】イベントやれます</span>
+                                    </span>
+                                </button>
+                                <div class="news-detail" hidden>
+                                    <h3>【学校・企業向け】イベントやれます</h3>
+                                    <time datetime="2026-11-26">2026年11月26日</time>
+                                    <p>
+                                        学校・学童・放課後アフタースクール、集客イベント等でパソコン工作をやってみませんか？<br>
+                                        <a href="service2.html">詳しくはこちら</a>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="news-item">
+                                <button type="button" class="news-card">
+                                    <span class="news-card__thumb"><img src="images/news/news-4.png" alt="" width="640" height="400"></span>
+                                    <span class="news-card__body">
+                                        <span class="news-card__date">2026.11.26</span>
+                                        <span class="news-card__title">12/6 クロスポートでクリスマスカード作れます！</span>
+                                    </span>
+                                </button>
+                                <div class="news-detail" hidden>
+                                    <h3>12/6 <a href="https://www.paddle-s.com/" target="_blank" rel="noopener noreferrer">クロスポート</a>でクリスマスカード作れます！</h3>
+                                    <time datetime="2026-11-26">2026年11月26日</time>
+                                    <p>
+                                        <a href="https://sorotouch-baytown.studio.site/" target="_blank" rel="noopener noreferrer">そろタッチ幕張ベイタウン校</a>のスペースをお借りして出展させていただけることになりました！<br>
+                                        簡単なマウス操作でCanvaの体験ができます。遊びに来てね～
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="news-item">
+                                <button type="button" class="news-card">
+                                    <span class="news-card__thumb"><img src="images/news/news-5.png" alt="" width="640" height="400"></span>
+                                    <span class="news-card__body">
+                                        <span class="news-card__date">2026.11.26</span>
+                                        <span class="news-card__title">10月の動画が公開中です！</span>
+                                    </span>
+                                </button>
+                                <div class="news-detail" hidden>
+                                    <h3>10月の動画が公開中です！</h3>
+                                    <time datetime="2026-11-26">2026年11月26日</time>
+                                    <p>
+                                        10月はwordで<s>ダサい</s>レトロな枠線のレターセットを作ります。見てみてね～<br>
+                                        <a href="https://youtu.be/M7x8_lcbsFU" target="_blank" rel="noopener noreferrer">動画を見る</a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <button type="button" class="carousel__btn carousel__btn--next" id="news-next" aria-label="次のお知らせ">
+                            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+                        </button>
+                    </div>
+
+                    <div class="carousel__footer">
+                        <div class="carousel__dots" id="news-dots" role="group" aria-label="お知らせの表示位置"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--トップページ本文：コンセプト-->
+        <section class="section" aria-labelledby="top-contents">
+            <div class="container">
+                <h2 class="section__title section__title--deco" id="top-contents">
+                    <span>パソコン工作ってなに？</span>
+                    <img class="section__deco" src="images/neko/point.png" alt="">
+                </h2>
+                <p>
+                    パソコン操作やプログラミング学習を画面の中だけで終わらせず、手で触れられる、お家に持って帰ってみんなで遊べる工作にしたもの、それがパソコン工作です。<br>
+                    Word・Excel・PowerPointやScratchなど様々なツールを使い、「作りたいものを形にできる」楽しさを体験しながら創作・実務スキルを身に着けやりたいこと・できることを増やしていきます。
+                </p>
+                <a class="button" href="about.html">ぴこ箱について詳しく見る</a>
+            </div>
+        </section>
+
+        <!--トップページ本文：事業案内-->
+        <section class="section" aria-labelledby="top-services">
+            <div class="container">
+                <h2 class="section__title section__title--deco" id="top-services">
+                    <span>事業内容</span>
+                    <img class="section__deco" src="images/neko/point.png" alt="">
+                </h2>
+                <div class="service-grid">
+                    <a class="service" href="service1.html">
+                        <h3>個人向け事業</h3>
+                        <p>
+                            お子さま・保護者さま向けのパソコン工作体験や講座、YouTubeでの作り方動画などを発信しています。
+                        </p>
+                    </a>
+                    <a class="service" href="service2.html">
+                        <h3>学校・企業向け事業</h3>
+                        <p>
+                            小中学校・学童・集客イベントなどへの出張パソコン工作講座やカリキュラム提供を承ります。
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <small>&copy; 2026 ぴこ箱</small>
+
+            <div class="sns-links" aria-label="SNS・公式LINEリンク">
+                <a href="https://www.instagram.com/pikobaco0/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/icon/instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com/@pikobaco" target="_blank" rel="noopener noreferrer">
+                    <img src="images/icon/youtube.png" alt="YouTube">
+                </a>
+                <a href="https://lin.ee/zKTrvii" target="_blank" rel="noopener noreferrer">
+                    <img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36">
+                </a>
+            </div>
+
+            <a href="privacy.html">プライバシーポリシー</a>
+        </div>
+    </footer>
+
+    <!--モーダルウィンドウ-->
+    <dialog class="modal" id="news-dialog" aria-label="お知らせの詳細">
+        <button type="button" class="modal__close" aria-label="閉じる">&times;</button>
+        <img class="modal__image" src="" alt="" width="640" height="400">
+        <div class="modal__content"></div>
+    </dialog>
+
+</body>
+</html>
